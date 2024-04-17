@@ -1,0 +1,187 @@
+.d_proul {
+    width: 1004px;
+    margin: 0 auto;
+    padding-top: 10px;
+}
+
+.d_proul li {
+    float: left;
+    width: 233px;
+    height: 175px;
+    margin: 0 0 27px 0;
+    position: relative;
+}
+
+.d_proul li+li {
+    margin-left: 19px;
+}
+
+.d_proul li .divimg {
+    float: left;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+}
+
+.d_proul li .divimg span {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    height: 50px;
+    text-align: center;
+    background: url(../../img/db4.png) left top repeat;
+    font-size: 14px;
+    line-height: 14px;
+    color: #fff;
+    line-height: 50px;
+    text-align: center;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.clear {
+    background: none;
+    border: 0;
+    clear: both;
+    display: block;
+    float: none;
+    font-size: 0;
+    overflow: hidden;
+    visibility: hidden;
+    width: 0;
+    height: 0;
+}
+
+.index_aboutf {
+    height: 535px;
+    border-bottom: 3px solid #ebac4c;
+}
+
+.main {
+    width: 1004px;
+    margin: 0 auto;
+    position: relative;
+}
+.index_about {
+    width: 575px;
+    float: right;
+    position: relative;
+    height: 520px;
+}
+
+.index_about .head_bg {
+    float: left;
+    width: 100%;
+    height: 43px;
+    margin-top: 30px;
+}
+.index_about .line_b {
+    height: 43px;
+    border-bottom: 2px solid #DFA53D;
+    padding: 0 0 10px 0;
+}
+.index_about .line_b .title {
+    float: left;
+    padding-left: 0;
+}
+.index_about .line_b .title label {
+    font-size: 34px;
+    color: #e7a54b;
+    line-height: 1;
+    font-weight: bold;
+    font-style: italic;
+}
+.iabout {
+    width: 100%;
+    height: 420px;
+    float: left;
+    margin-top: 25px;
+    overflow: hidden;
+    line-height: 26px;
+    font-size: 14px;
+    color: #af9f9f;
+}
+.inew_ul {
+    float: left;
+    width: 100%;
+    padding-top: 35px;
+}
+.inew_ul li {
+    float: left;
+    margin: 0 0 39px 0;
+    width: 100%;
+    height: 300px;
+    background: url(../../img/db1.gif) left top repeat;
+}
+.inew_ul li .img {
+    float: left;
+    width: 400px;
+    height: 300px;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+}
+.inew_ul li a.img i {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 400px;
+    height: 300px;
+    background: url(../../img/db3.png) center top no-repeat;
+    display: none;
+}
+.inew_ul li .news01 {
+    float: left;
+    width: 68px;
+    height: 56px;
+    padding: 17px 0 0 0;
+    background: url(../../img/db1.png) center center no-repeat;
+    text-align: center;
+    font-size: 15px;
+    color: #fff;
+    margin: 53px 0 0 -34px;
+    position: relative;
+    z-index: 9;
+}
+.inew_ul li .news01 span {
+    display: block;
+    font-size: 14px;
+    line-height: 1.2;
+}
+.inew_ul li .irr {
+    float: left;
+    margin: 60px 0 0 30px;
+    width: 543px;
+    width: 496px;
+    padding: 0 44px 0 0;
+    background: url(../../img/db3.gif) right 8px no-repeat;
+}
+.inew_ul li .irr label {
+    display: block;
+    font-size: 12px;
+    padding: 10px 0 35px;
+    background: url(../../img/db2.gif) left bottom no-repeat;
+}
+.inew_ul li .irr label font {
+    color: #ebad4a;
+}
+.inew_ul li .irr span {
+    display: block;
+    font-size: 12px;
+    line-height: 22px;
+    height: 88px;
+    overflow: hidden;
+    color: #666666;
+    padding: 20px 0 0;
+    -moz-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+}
+.inew_ul li a:hover h4 {
+    color: #643e33;
+}

@@ -1,0 +1,23 @@
+/**
+ * 工具类css
+ */
+/* 嵌套文字横线 */
+.line-container {
+	width: 100%;
+	background: url(../img/line.gif) bottom center;
+	background-repeat: no-repeat;
+	text-align: center;
+	padding-bottom: 20px;
+}
+
+.line {
+	font-size: 34px;
+	color: #643e33;
+	line-height: 1;
+	font-weight: bold;
+	font-style: italic;
+}
+
+/**
+ * 工具类css end
+ */
